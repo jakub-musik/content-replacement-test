@@ -16,3 +16,10 @@ export default function Home() {
     </div>
   )
 }
+
+export const getStaticProps = async () => {
+  console.log("test")
+  return {
+    props: {},
+  }
+}
